@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(51, 51, 51);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+ul{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.navbar{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    overflow: hidden;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.nav-element{
+    float: left;
+}
+.nav-element:hover{
+    background-color: rgb(189, 189, 189);
+}
+.nav-element a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+}

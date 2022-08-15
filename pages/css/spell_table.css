@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(51, 51, 51);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+h2{
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+h3 {
+    color: white;
+    text-align: left;
+    font-size: larger;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.wand_upgrades {
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: darkgray;
+}
+th, td{
+    border: 1px solid white;
+    padding: 20px;
+}
+tr:hover{
+    background-color: lightgrey;
+}
+
+ul{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.spell_1{
+    color: green;
+    font-size: 30px;
+}
+.spell_2{
+    color: aqua;
+    font-size: 30px;
+}
+.spell_3{
+    color: yellow;
+    font-size: 30px;
+}
+.spell_4{
+    color: gold;
+    font-size: 30px;
+}
+.spell_5{
+    color: purple;
+    font-size: 30px;
+}
+.paragraf{
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+}
+.paragraf_heading{
+    margin-left: 0px;
+    font-size: 40px;
+}
+.spell_lists{
+    background-color: rgb(22, 21, 21);;
+    border: white;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 96%;
+}
+.navbar{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 60px;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.nav-element{
+    float: left;
+}
+.nav-element:hover{
+    background-color: rgb(189, 189, 189);
+}
+.nav-element a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+}
